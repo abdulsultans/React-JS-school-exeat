@@ -13,7 +13,7 @@ function AddStudent() {
     dispatch({ type: "ADDSTUDENT", payload: { name, level, date, indexNo } });
   };
   return (
-    <form onSubmit={onsubmit}>
+    <form className="addSt" onSubmit={onsubmit}>
       <input
         type="text"
         placeholder="student name"
@@ -26,7 +26,7 @@ function AddStudent() {
       />
       <input
         type="date"
-        pdatelaceholder="exeat date"
+        placeholder="exeat date"
         onChange={(e) => setDate(e.target.value)}
       />
       <input
