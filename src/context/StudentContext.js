@@ -20,6 +20,12 @@ const initialState = [
     date: "02/02/19",
     indexNo: "KWE041",
   },
+  {
+    name: "William Yaz",
+    level: "400",
+    date: "15/08/19",
+    indexNo: "KWE033",
+  },
 ];
 
 export const StudentContext = createContext();
