@@ -15,12 +15,6 @@ const initialState = [
     indexNo: "KWE005",
   },
   {
-    name: "Sultan Femi",
-    level: "400",
-    date: "22/12/20",
-    indexNo: "KWE001",
-  },
-  {
     name: "Mary Donzuo",
     level: "300",
     date: "02/02/19",

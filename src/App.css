@@ -1,90 +1,104 @@
-*{
-	margin: 0px;
-	padding: 0px;
-} 
-
-.container{
-  border: 2px solid white;
-	width: 100%;
-	height:12vh;
-	font-family: sans-serif;
-  background: transparent, rgb(187,187,245);
-	color: #fff;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body { display: flex;
+.container {
+  border: 2px solid white;
+  width: 100%;
+  height: 12vh;
+  background: "";
+  color: #fff;
+}
+
+body {
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 25px;
   padding: 10px;
   background-color: #ff1f5a;
-  color:white;
-
+  color: white;
 }
 
-form{
+form {
   padding: 10px;
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(2) 1fr;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-input{
-  width:250px;
-	height: 32px;
-	background:steelblue;
-	border: 1px solid white;
-	border-radius: 20px;
-	margin: 6px;
-	padding: 0 10px;
-	box-sizing: border-box;
-	outline: none;
-	text-align: center;
-	color: white;
+input {
+  width: 250px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 6px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: white;
 }
 
-::placeholder{
-	color: white;
-	font-size: 12px;
+::placeholder {
+  color: white;
+  font-size: 12px;
 }
 
-button{
+button {
   width: auto;
-	background:#1e2a78;
-	border: 1px solid white;
-	margin: 35px 0 10px;
-	height: 32px;
-	font-size: 12px;
-	border-radius: 20px;
-	padding: 0 10px;
-	box-sizing: border-box;
-	outline: none;
-	color: white;
-	cursor: pointer;
+  background: #ff1f5a;
+  border: 1px solid white;
+  margin: 35px 0 10px;
+  height: 32px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  outline: none;
+  color: white;
+  cursor: pointer;
 }
 
-.stud{
-  border: 2px solid white;
-  background-color: teal;
+.submit-btn{
+  color: #1e2a78;
+  font-size: 17px;
+  height: 50%;
+  width: auto;
+  border-radius: 25px;
+  background: #fff;
+
+}
+
+.stud {
+  border: 1px solid white;
+  background-color: #1e2a78;
   width: 100%;
   height: auto;
   display: grid;
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(3), 1fr;
-  border-radius: 25px;
+  border-radius: 25px 0 0 25px;
+  box-shadow: grey;
 }
 
-.App{
+.App {
   padding: 10px;
   margin: 10px;
-  display: flex;justify-content: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  border: 2px solid blanchedalmond;
+  border-radius: 0 15px 15px 0;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,6 +106,10 @@ footer{
   padding: 5px;
 }
 
-hr{
+hr {
   width: 50%;
+  padding-bottom: 2px;
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
 }

@@ -31,10 +31,10 @@ function AddStudent() {
       />
       <input
         type="text"
-        pdatelaceholder="indexNo"
+        placeholder="index No"
         onChange={(e) => setIndexNo(e.target.value)}
       />
-      <button>ADD</button>
+      <button className="submit-btn">SUBMIT</button>
     </form>
   );
 }
