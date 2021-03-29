@@ -5,7 +5,7 @@ function Students() {
   const { students, dispatch } = useContext(StudentContext);
   return (
     <div className="stud">
-      <h1>Students Exeat Records</h1>
+      <h1>Exeat Records Book</h1>
       <hr/>
       {students.map((student) => (
         <div>

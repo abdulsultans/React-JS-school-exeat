@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
 
-            <h4>Absuta High School | Copyright &copy; - 2021</h4>
+            <h4>Absuta High School | Copyright &copy; All Rights Reserved - 2021</h4>
             
         </footer>
     )

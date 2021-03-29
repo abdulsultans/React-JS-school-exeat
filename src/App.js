@@ -6,15 +6,15 @@ import Students from "./components/Students";
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Header />
+      <h1>Student Exeat</h1>
       <div className="App">
         <h1>Student Exeat Form</h1>
-        <hr></hr>
         <AddStudent />
         <Students />
       </div>
-      <Footer className="container"/>
+      <Footer />
     </div>
   );
 }
