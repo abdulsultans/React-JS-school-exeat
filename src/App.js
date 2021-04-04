@@ -3,16 +3,24 @@ import AddStudent from "./components/AddStudent";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Students from "./components/Students";
+import { useState } from "react";
 
 function App() {
+	const [toggle, setToggle] = useState(false);
+	
+	function showform() {
+    setToggle(!toggle);
+  }
+  
   return (
     <div>
-      <Header />
-      <h1>Student Exeat</h1>
+      <Header showform={showform} toggle={toggle} />
       <div className="App">
-        <h1>Student Exeat Form</h1>
-        <AddStudent />
-        <Students />
+        <div>
+		{toggle && <AddStudent />}
+         <h1>Exeat Records Book</h1>
+         <Students />
+        </div>
       </div>
       <Footer />
     </div>
@@ -20,3 +28,4 @@ function App() {
 }
 
 export default App;
+  

@@ -1,11 +1,17 @@
 import React from "react";
 
-function Header() {
+function Header({ showform, toggle }) {
   return (
-    <nav>
-      <h1>ASUTASEC</h1>
-      <hr/>
-    </nav>
+    <div className="header">
+      <h1>ASuCoT</h1>
+      <h3>Student Exeat Form</h3>
+	  <button
+        style={{ background: `${toggle ? "crimson" : "white"}`, border: "black"}}
+        onClick={showform}
+      >
+        {toggle ? "CLOSE" : "SIGN EXEAT"}
+      </button>
+    </div>
   );
 }
 

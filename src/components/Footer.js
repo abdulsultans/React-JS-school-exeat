@@ -2,9 +2,9 @@
 
 function Footer() {
     return (
-        <footer>
+        <footer className="footer">
 
-            <h4>Absuta High School | Copyright &copy; All Rights Reserved - 2021</h4>
+            <h4>Abdul Sultan College of Technology | Copyright &copy; All Rights Reserved - 2021</h4>
             
         </footer>
     )
