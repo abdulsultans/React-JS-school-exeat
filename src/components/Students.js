@@ -11,6 +11,7 @@ function Students() {
           <h3>{student.level}</h3>
           <h3>{student.date}</h3>
           <h3>{student.indexNo}</h3>
+		  <h3>{student.reason}</h3>
           <button
             onClick={() =>
               dispatch({ type: "DELETE", indexNo: student.indexNo })
