@@ -6,7 +6,7 @@ function Header({ showform, toggle }) {
       <h1>ASuCoT</h1>
       <h3>Student Exeat Form</h3>
 	  <button
-        style={{ background: `${toggle ? "crimson" : "white"}`, border: "black"}}
+        style={{ background: `${toggle ? "crimson" : "green"}`, border: "black"}}
         onClick={showform}
       >
         {toggle ? "CLOSE" : "SIGN EXEAT"}
